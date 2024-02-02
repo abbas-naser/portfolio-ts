@@ -1,0 +1,11 @@
+footer {
+  margin-top: auto;
+  padding: 14px 0;
+  border: none;
+  width: 100%;
+  border-top: 2px solid var(--blue);
+}
+
+footer p {
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.skill-learning {
+  color: var(--pink);
+}
+.skill-learned {
+  color: var(--green);
+}
+.skill-learned-text {
+  text-decoration: line-through;
+}
+.skills-list-item {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.skills-list-item::first-letter {
+  text-transform: capitalize;
+}
