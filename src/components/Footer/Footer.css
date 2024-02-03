@@ -3,7 +3,8 @@ footer {
   padding: 14px 0;
   border: none;
   width: 100%;
-  border-top: 2px solid var(--blue);
+  max-width: var(--max-width);
+  border-top: 1px solid var(--lighter-blue);
 }
 
 footer p {

@@ -23,7 +23,8 @@ export default function SkillsListItem({
       <div>
         {title && <span className="bold">{title}: </span>}
         <span className={`${learned ? "skill-learned-text" : ""}`}>
-          {text}.{" "}
+          {text}
+          {learning && " -Learning-"}
         </span>
       </div>
     </div>

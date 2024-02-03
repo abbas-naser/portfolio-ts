@@ -1,13 +1,12 @@
 .section-group-btns {
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
-  padding: 8px 10px;
-  border-top: 2px solid var(--blue);
-  border-bottom: 2px solid var(--blue);
+  padding: 18px 10px;
+  border-top: 1px solid var(--lighter-blue);
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 4px;
 }
 .section-title {
   margin: 0 12px 0 0;
@@ -20,11 +19,11 @@
 
 .section-group-btns button {
   color: var(--blue);
-  background-color: var(--light-grey);
-  border: none;
+  background-color: var(--lighter-blue);
   text-transform: uppercase;
   padding: 8px 16px;
-  border-radius: 40px;
+  border-radius: 8px;
+  /* border-radius: 40px; */
   font-family: "Lora", serif;
   font-weight: 500;
   font-size: 16px;
@@ -33,16 +32,16 @@
   border: 1.5px solid transparent;
 }
 .section-group-btns button:hover {
-  color: var(--blue);
   background-color: var(--light-blue);
 }
 .selected-group-btn {
-  font-family: "Lora", serif;
-  font-weight: 700 !important;
-  /* background-color: var(--light-blue) !important; */
   background-color: white !important;
-  color: var(--blue);
-  text-decoration: underline;
   border: 1.5px solid var(--blue) !important;
+  text-decoration: underline;
+  font-weight: 700 !important;
   animation: scale var(--animation-duration);
 }
+/* .green {
+  color: var(--green) !important;
+  border-color: var(--green) !important;
+} */

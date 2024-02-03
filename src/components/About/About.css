@@ -1,14 +1,12 @@
+.about-section {
+  /* background-color: white; */
+  align-self: center;
+}
 .about-content {
   padding: 20px 20px;
   max-width: var(--max-width);
   margin: 0 auto;
   min-height: 250px;
-  animation: opacity var(--animation-duration);
-}
-.skills,
-.experiense,
-.education,
-.certifications {
   animation: opacity var(--animation-duration);
 }
 

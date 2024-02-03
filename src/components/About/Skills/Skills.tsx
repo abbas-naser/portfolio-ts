@@ -4,7 +4,7 @@ export default function Skills() {
   const toLearn = [
     {
       icon: "clock_loader_10",
-      text: "TypeScript (learning)",
+      text: "TypeScript",
       learning: true,
       learned: false,
     },
@@ -25,17 +25,17 @@ export default function Skills() {
     {
       icon: "code",
       title: "Programming languages",
-      text: "JavaScript, HTML, CSS, Python and Dart",
+      text: "JavaScript, HTML, CSS, Python and Dart.",
     },
     {
       icon: "code_blocks",
       title: "Frameworks and Libraries",
-      text: "Express.js, React and Flutter",
+      text: "Express.js, React and Flutter.",
     },
     {
       icon: "database",
       title: "Databases",
-      text: "MongoDB, PostgreSQL",
+      text: "MongoDB, PostgreSQL.",
     },
     {
       icon: "terminal",

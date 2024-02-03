@@ -4,4 +4,4 @@ export type aboutBtns =
   | "certifications"
   | "experience";
 
-export type projectBtns = "snakes & ladders" | "memories";
+export type projectBtns = "snakes & ladders" | "memories" | "portfolio";

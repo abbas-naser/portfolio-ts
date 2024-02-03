@@ -22,6 +22,7 @@
   background-color: white;
   object-fit: contain;
   padding: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 4px 8px;
 }
 .list-item-title {
   margin-bottom: 3px;
@@ -33,7 +34,7 @@
   text-align: start;
   padding-left: 70px; /*img width 60 + flex gap 10 */
   /* margin-top: -5px; */
-  color: rgb(100, 100, 100);
+  color: var(--mid-grey);
 }
 .list-tasks {
   margin-top: -5px;

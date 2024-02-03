@@ -18,7 +18,7 @@ export default function About() {
     "certifications",
   ];
   return (
-    <>
+    <div className="about-section">
       {/* btns group */}
       <SectionGroupButtons
         title="about me"
@@ -34,6 +34,6 @@ export default function About() {
         {aboutComponentToShow === "experience" && <Experience />}
         {aboutComponentToShow === "certifications" && <Certifications />}
       </div>
-    </>
+    </div>
   );
 }

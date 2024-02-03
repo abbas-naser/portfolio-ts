@@ -6,14 +6,16 @@
   --border-radius: 5px;
   --animation-duration: 0.3s;
 
-  /* --teal: rgb(0, 173, 181);
-  --dark-grey: rgb(57, 62, 70); */
-  /* --almost-black: rgb(34, 40, 49); */
+  --teal: rgb(0, 173, 181);
   --light-grey: #f9f7f7;
+  --mid-grey: rgb(100, 100, 100);
+  --dark-grey: rgb(57, 62, 70);
+  --almost-black: rgb(34, 40, 49);
   --background-color: #f9f7f7;
   --dark-blue: rgb(17, 45, 78);
   --blue: rgb(63, 114, 175);
   --light-blue: rgb(219, 226, 239);
+  --lighter-blue: rgba(234, 236, 241, 0.5);
   --pink: #f15ba6;
   --green: #3caa8c;
 }
@@ -30,10 +32,11 @@ html {
 }
 
 body {
-  background-color: var(--light-grey);
-  /* font-size: 16px; */
+  /* background-color: var(--light-grey); */
+  background-color: white;
   font-family: "lora", serif;
-  color: var(--dark-blue);
+  /* color: var(--dark-blue); */
+  color: var(--almost-black);
 }
 
 a {
@@ -43,8 +46,7 @@ a {
 }
 hr {
   border: none;
-  /* border-top: 1px solid rgb(187, 187, 187); */
-  border-top: 1px solid #ededed;
+  border-top: 1px solid var(--light-blue);
 }
 
 .bold {
@@ -54,10 +56,16 @@ hr {
   text-decoration: underline;
 }
 .list-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 12px;
   text-decoration: underline;
+  text-transform: capitalize;
+}
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
   text-transform: capitalize;
 }
 .go-up {
@@ -74,6 +82,15 @@ hr {
 /***************************************
 animations
 ***************************************/
+.skills,
+.experiense,
+.education,
+.certifications,
+.snakes-and-ladders-container,
+.memories-container,
+.portfolio-container {
+  animation: opacity var(--animation-duration);
+}
 @keyframes scale {
   0% {
     transform: scale(0.8);
@@ -90,5 +107,13 @@ animations
 
   100% {
     opacity: 1;
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

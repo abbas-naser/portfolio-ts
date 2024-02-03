@@ -1,13 +1,13 @@
 /* for mobile */
 
 .profile-outer-container {
-  /* background-color: var(--dark-blue); */
   background-image: radial-gradient(
     circle,
     rgb(17, 45, 78, 1),
     rgba(3, 33, 64, 1)
   );
 }
+
 .profile-container {
   padding: 40px 20px 40px 20px;
   width: 100%;
