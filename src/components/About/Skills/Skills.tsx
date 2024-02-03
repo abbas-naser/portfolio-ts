@@ -40,7 +40,7 @@ export default function Skills() {
     {
       icon: "terminal",
       title: "Others",
-      text: "Github, Node.js,Mongoose, OAuth - Google Auth, JWT authentication, EJS, Cloudinary and Bootstrap.",
+      text: "Github, Node.js, Mongoose, OAuth - Google Auth, JWT authentication, EJS, Cloudinary and Bootstrap.",
     },
   ];
   const languages = [

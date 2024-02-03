@@ -85,11 +85,7 @@ export default function SnakesAndLadders() {
         details were put on it, and lots of lessons has been learned.
       </p>
       <br />
-      <div className="go-up">
-        <span>
-          <a href="#projects">Go To Projects</a> | <a href="#top"> Top</a>
-        </span>
-      </div>
+
       {/* image is not shown, it is added here so it will be downloaded by the browser  */}
       <img src={homeLoggedOut} alt="hidden" style={{ display: "none" }} />
     </div>

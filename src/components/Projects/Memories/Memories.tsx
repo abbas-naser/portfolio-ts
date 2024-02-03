@@ -319,11 +319,6 @@ export default function Memories() {
         for learning.{" "}
       </p>
       <br />
-      <div className="go-up">
-        <span>
-          <a href="#projects">Go To Projects</a> | <a href="#top"> Top</a>
-        </span>
-      </div>
     </div>
   );
 }

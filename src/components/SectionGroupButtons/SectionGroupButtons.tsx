@@ -2,6 +2,7 @@ import "./SectionGroupButtons.css";
 type Props = {
   title: string;
   btns: string[];
+  sectionId: string;
   selectedBtnClassName: string;
   componentToShowState: string;
   setComponentToShowState: React.Dispatch<React.SetStateAction<string>>;
@@ -10,6 +11,7 @@ type Props = {
 export default function SectionGroupButtons({
   title,
   btns,
+  sectionId,
   selectedBtnClassName,
   componentToShowState,
   setComponentToShowState,
@@ -23,6 +25,8 @@ export default function SectionGroupButtons({
             key={index}
             className={componentToShowState === btn ? selectedBtnClassName : ""}
             onClick={() => {
+              const element = document.getElementById(sectionId);
+              element!.scrollIntoView({ behavior: "smooth" });
               setComponentToShowState(btn);
             }}
           >

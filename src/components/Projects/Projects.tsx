@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { projectBtns } from "../../types";
 import SectionGroupButtons from "../SectionGroupButtons/SectionGroupButtons";
 import Memories from "./Memories/Memories";
@@ -12,15 +12,17 @@ export default function Projects() {
 
   const projects: projectBtns[] = ["snakes & ladders", "memories", "portfolio"];
   return (
-    <div id="projects" className="projects-section">
+    <div id="projects-section" className="projects-section">
       {/* <hr /> */}
       <SectionGroupButtons
         title="Projects"
         btns={projects}
+        sectionId="projects-section"
         componentToShowState={projectToShow}
         selectedBtnClassName="selected-group-btn"
         setComponentToShowState={setProjectToShow}
       />
+
       <div className="projects-content">
         {projectToShow === "snakes & ladders" && <SnakesAndLadders />}
         {projectToShow === "memories" && <Memories />}

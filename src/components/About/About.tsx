@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { aboutBtns } from "../../types";
 import SectionGroupButtons from "../SectionGroupButtons/SectionGroupButtons";
 import Skills from "./Skills/Skills";
@@ -18,11 +18,12 @@ export default function About() {
     "certifications",
   ];
   return (
-    <div className="about-section">
+    <div id="about-section" className="about-section">
       {/* btns group */}
       <SectionGroupButtons
         title="about me"
         btns={btns}
+        sectionId="about-section"
         selectedBtnClassName="selected-group-btn"
         componentToShowState={aboutComponentToShow}
         setComponentToShowState={setAboutComponentToShow}
