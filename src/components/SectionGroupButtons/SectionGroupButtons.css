@@ -11,7 +11,7 @@
 .section-group-btns {
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
@@ -52,10 +52,4 @@
   font-weight: 700 !important;
   text-decoration: underline;
   animation: scale var(--animation-duration);
-}
-
-@media (min-width: 760px) {
-  .section-group-btns {
-    justify-content: center;
-  }
 }
