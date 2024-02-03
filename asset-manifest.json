@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dedb6596.css",
+    "main.js": "/static/js/main.74f2bda9.js",
+    "static/media/memory.png": "/static/media/memory.46aa4109a73fdfdc1a44.png",
+    "static/media/albums.png": "/static/media/albums.f62bae74aab3e8c29dde.png",
+    "static/media/me.png": "/static/media/me.c4c312715bc2d02c6c9e.png",
+    "static/media/home-with-memories.png": "/static/media/home-with-memories.7ac2bbbe6d6b7b526a16.png",
+    "static/media/home-logged-out.png": "/static/media/home-logged-out.8e8bcc072f4fb03f7300.png",
+    "static/media/select-validation.png": "/static/media/select-validation.b12f3abb1295c3a55c33.png",
+    "static/media/album.png": "/static/media/album.0f1cf787ede3d9a0c973.png",
+    "static/media/albums-mobile.png": "/static/media/albums-mobile.94dd3758dd1606b90a28.png",
+    "static/media/addingMemory.png": "/static/media/addingMemory.6862ba2696e9a9b3332e.png",
+    "static/media/albumMemories.png": "/static/media/albumMemories.e83d3b5ce4b9ecd02c02.png",
+    "static/media/pendingMemories.png": "/static/media/pendingMemories.8f31c32d25b94d80bb87.png",
+    "static/media/albums-tablet.png": "/static/media/albums-tablet.58dc07a067d05f7fc7e6.png",
+    "static/media/pendingMembers.png": "/static/media/pendingMembers.621e6f8f490edc6da248.png",
+    "static/media/search-private.png": "/static/media/search-private.8e300c2c1e4cc6917e77.png",
+    "static/media/searchJoin.png": "/static/media/searchJoin.06a96add9a9e5a906058.png",
+    "static/media/search-error-alert.png": "/static/media/search-error-alert.4ec4f596dc61776be7ba.png",
+    "static/media/winner.png": "/static/media/winner.9a6b17b49398bd604ffa.png",
+    "static/media/home-no-memories-alert.png": "/static/media/home-no-memories-alert.7663d5e67d1e2bc49381.png",
+    "static/media/login-validation.png": "/static/media/login-validation.4228f8778ec83180a9ec.png",
+    "static/media/play.png": "/static/media/play.c4b61dda234ac00d65e0.png",
+    "static/media/you-dont-have-access.png": "/static/media/you-dont-have-access.53513a2cae115fec6b9f.png",
+    "static/media/profile.png": "/static/media/profile.28cc77db662dd1ab651b.png",
+    "static/media/ewa.png": "/static/media/ewa.36057a3a59a961c223d4.png",
+    "static/media/uob.png": "/static/media/uob.a7cfd05bb898a39117a2.png",
+    "static/media/aqua.png": "/static/media/aqua.9bf35532873c45220cdf.png",
+    "index.html": "/index.html",
+    "main.dedb6596.css.map": "/static/css/main.dedb6596.css.map",
+    "main.74f2bda9.js.map": "/static/js/main.74f2bda9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dedb6596.css",
+    "static/js/main.74f2bda9.js"
+  ]
+}
