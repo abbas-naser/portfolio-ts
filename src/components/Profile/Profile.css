@@ -9,7 +9,7 @@
 }
 
 .profile-container {
-  padding: 40px 20px 20px 20px;
+  padding: 40px 20px 40px 20px;
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -33,25 +33,23 @@
 .profile-name {
   font-size: 30px;
   letter-spacing: 0.5px;
-  text-align: start;
+  text-align: center;
   font-weight: bold;
   color: white;
   text-transform: capitalize;
   margin-bottom: 20px;
-  transition: 0.5s;
+  text-shadow: 0 0 2px var(--blue);
 }
-.profile-name:hover {
-  font-size: 34px;
-}
+
 .profile-barnd-statement {
   color: var(--light-blue);
-  text-align: start;
+  text-align: center;
 }
 .profile-contact {
   background-color: var(--light-grey);
   color: var(--mid-grey);
   border-radius: 8px;
-  text-align: start;
+  text-align: center;
   width: 100%;
   padding: 10px 20px;
   margin: 0 auto;
@@ -62,16 +60,13 @@
 @media (min-width: 600px) {
   .profile-name {
     /* font-size: 28px; */
-    text-align: center;
   }
   .profile-barnd-statement {
-    text-align: center;
   }
   .profile-contact {
     max-width: 900px;
     min-width: 450px;
     width: fit-content;
-    text-align: center;
   }
 }
 @media (min-width: 950px) {

@@ -1,14 +1,14 @@
 import "./Profile.css";
-import profileImage from "../../images/profile.png";
+import profileImage from "../../images/profile.jpg";
 
 export default function Profile(): React.JSX.Element {
   return (
     <div className="profile-outer-container">
       <div className="profile-container">
         {/* profile image */}
-        {/* <div className="profile-image-container">
+        <div className="profile-image-container">
           <img src={profileImage} alt="profile" />
-        </div> */}
+        </div>
         {/* porfile detials */}
         <div className="profile-details">
           <p className="profile-name">Abbas Abdulla Naser</p>

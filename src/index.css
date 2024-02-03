@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  /* background-color: var(--light-grey); */
+  background-color: var(--light-grey);
   background-color: white;
   font-family: "lora", serif;
   /* color: var(--dark-blue); */
