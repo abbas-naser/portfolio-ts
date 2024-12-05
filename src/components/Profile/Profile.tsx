@@ -19,8 +19,8 @@ export default function Profile(): React.JSX.Element {
           </p>
           {/* porfile contact */}
           <div className="profile-contact">
-            {" "}
-            <p>Email: abbass.abdulla.naser@gmail.com</p>
+            
+          
             <p>
               Linkedin:{" "}
               <a
